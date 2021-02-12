@@ -31,9 +31,9 @@ export default function Home() {
           <a href="https://myanimelist.net/profile/damnitjoshua" target="_blank">MAL</a>
           <a href="https://dribbble.com/damnitjoshua" target="_blank">Dribbble</a>
           <a href="https://github.com/damnitjoshua" target="_blank">GitHub</a>
-          <a href="https://twitter.com/damnitjoshua_" target="_blank">Email</a>
+          <a href="mailto:joshuachew8118@gmail.com" target="_blank">Email</a>
           <a href="https://telegram.me/damnitjoshua" target="_blank">Telegram</a>
-          <a href="https://twitter.com/damnitjoshua_" target="_blank">WhatsApp</a>
+          <a href="https://wa.me/+60122550871" target="_blank">WhatsApp</a>
         </div>
       </header>
 
@@ -41,20 +41,20 @@ export default function Home() {
         <h1>Projects</h1>
 
         <div className={styles.projectCon}>
-          <a href="https://twitter.com/damnitjoshua_" target="_blank">
+          <a href="https://covidmalaysia.netlify.app" target="_blank">
             <h2>Covid Malaysia</h2>
             <h3>Daily Covid-19 Tracking in Malaysia.</h3>
           </a>
-          <a href="https://twitter.com/damnitjoshua_" target="_blank">
+          <a href="https://eggventure.netlify.app" target="_blank">
             <h2>Egg Venture Technology</h2>
             <h3>Homepage and Covid Tracking for Egg Venture.</h3>
           </a>
-          <a href="https://twitter.com/damnitjoshua_" target="_blank">
+          <a href="https://dribbble.com/shots/7688660-StepUp-healthcare-app?utm_source=Clipboard_Shot&utm_campaign=damnitjoshua&utm_content=StepUp%20-%20healthcare%20app&utm_medium=Social_Share" target="_blank">
             <h2>StepUp</h2>
             <h3>Concept app that helps you focus on your wellbeing.</h3>
           </a>
           
-          <Link href="/">
+          <Link href="/_app.js">
             <div className={styles.link}>
               View more
             </div>
