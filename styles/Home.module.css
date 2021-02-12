@@ -136,18 +136,23 @@
 
 @media (max-width: 600px) {
   .container {
-    margin: 2rem 2rem;
+    margin: 1.6rem 1.6rem 5rem 1.6rem;
   }
 
   .header h1,
   .project h1{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .header h2 {
-    font-size: 1.3rem;
-    line-height: 2.3rem;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
     letter-spacing: 1px;
+  }
+
+  .header a {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
   }
 
   .socialCon {
@@ -157,20 +162,29 @@
     grid-gap: 1rem;
   }
 
+  .project {
+    margin-top: 6rem;
+  }
+
   .projectCon a {
     padding: 0.1rem 2rem;
   }
 
   .projectCon h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2.5rem;
     letter-spacing: 2px;
   }
   
   .projectCon h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2.3rem;
     letter-spacing: 1px;
-    margin-top: -10px;
+    margin-top: -5px;
+  }
+
+  .link {
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
   }
 }
