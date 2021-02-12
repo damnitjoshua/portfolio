@@ -7,12 +7,13 @@
 
 .container {
   margin: 3rem 22rem;
+  background: #101010;
   padding: 0;
 }
 
 .header h1,
 .project h1{
-  font-family: 'SF Pro';
+  font-family: 'SF Pro', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 2.2rem;
@@ -20,7 +21,7 @@
 }
 
 .header h2 {
-  font-family: 'SF Pro';
+  font-family: 'SF Pro', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.5rem;
@@ -43,7 +44,7 @@
 }
 
 .header a {
-  border: 3px solid #1d212b;
+  border: 3px solid #2b313f;
   border-radius: 7px;
   padding: 1rem 1.5rem;
   font-family: 'SF Pro';
@@ -65,13 +66,14 @@
 }
 
 .projectCon {
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
 }
 
 .projectCon h2 {
-  font-family: 'SF Pro';
+  font-family: 'SF Pro', sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 2rem;
@@ -80,7 +82,7 @@
 }
 
 .projectCon h3 {
-  font-family: 'SF Pro';
+  font-family: 'SF Pro', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.5rem;
@@ -91,6 +93,7 @@
 
 .projectCon a {
   background: #1d212b;
+  border: 3px solid #1d212b;
   border-radius: 7px;
   padding: 0.1rem 3rem;
   font-family: 'SF Pro';
@@ -149,7 +152,7 @@
   .header h2 {
     font-size: 1.2rem;
     line-height: 2.1rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
 
   .header a {
@@ -169,24 +172,24 @@
   }
 
   .projectCon a {
-    padding: 0.1rem 2rem;
+    padding: 0rem 2rem;
   }
 
   .projectCon h2 {
     font-size: 1.3rem;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
     letter-spacing: 2px;
   }
   
   .projectCon h3 {
-    font-size: 1.2rem;
-    line-height: 2.3rem;
+    font-size: 1rem;
+    line-height: 2rem;
     letter-spacing: 1px;
-    margin-top: -5px;
+    margin-top: -8px;
   }
 
   .link {
     padding: 1rem 3rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
