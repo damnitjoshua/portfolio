@@ -65,7 +65,7 @@ export default function Home() {
             <h3>Concept app that helps you focus on your wellbeing.</h3>
           </a>
           
-          <Link href="/_app.js" rel="prefetch">
+          <Link href="/projects" rel="prefetch">
             <div className={styles.link}>
               View more
             </div>
