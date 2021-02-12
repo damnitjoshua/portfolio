@@ -31,7 +31,7 @@
   width: 100%;
   height: 20rem;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 .socialCon {
@@ -42,8 +42,8 @@
 }
 
 .header a {
-  background: #232733;
-  border-radius: 5px;
+  border: 3px solid #282d3b;
+  border-radius: 7px;
   padding: 1rem 1.5rem;
   font-family: 'SF Pro';
   font-weight: 500;
@@ -55,6 +55,7 @@
 .header a:hover,
 .projectCon a:hover {
   background: #c4d4ff;
+  border: 3px solid #c4d4ff;
   color: #000000;
 }
 
@@ -88,8 +89,8 @@
 }
 
 .projectCon a {
-  background: #232733;
-  border-radius: 5px;
+  background: #1d212b;
+  border-radius: 7px;
   padding: 0.1rem 3rem;
   font-family: 'SF Pro';
   font-weight: 500;
@@ -100,7 +101,7 @@
 .link {
   text-align: center;
   border: 3px solid #ffffff;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 1rem 3rem;
   font-family: 'SF Pro';
   font-weight: 500;
