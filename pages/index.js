@@ -7,6 +7,16 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Joshua Chew</title>
+        <link rel="canonical" href="https://damnitjoshua.vercel.app/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="title" content="Joshua Chew" />
+        <meta name="description" content="Front-end web developer and user interface designer based in Kuala Lumpur, Malaysia." />
+        <meta name="keywords" content="Joshua Chew, damnitjoshua, Joshua Chew Jay Han, malaysia web developer, malaysia ui designer. selangor web developer, selangor ui designer, rawang web developer." />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="author" content="Joshua Chew Jay Han" />
       </Head>
 
       <header className={styles.header}>
