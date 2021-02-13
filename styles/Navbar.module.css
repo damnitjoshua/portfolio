@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.5rem 0;
+}
+
+.iconcon {
+    display: flex;
+}
+
+.nav a {
+    width: auto;
+    height: 1.4rem;
+    margin-left: 18px;
+    padding: 0;
+}
+
+.nav svg {
+    width: auto;
+    height: 1.4rem;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.link {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.link:hover {
+    text-decoration: #ffffff 3px underline;
+}
+
+.nav svg:hover {
+    stroke: #bdd1ff;
+}
