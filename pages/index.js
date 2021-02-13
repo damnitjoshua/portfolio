@@ -58,7 +58,7 @@ export default function Home() {
             <h2>Egg Venture Technology</h2>
             <h3>Homepage and Covid Tracking for Egg Venture.</h3>
           </a>
-          <a href="https://dribbble.com/shots/7688660-StepUp-healthcare-app?utm_source=Clipboard_Shot&utm_campaign=damnitjoshua&utm_content=StepUp%20-%20healthcare%20app&utm_medium=Social_Share" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribble">
+          <a href="https://dribbble.com/shots/7688660-StepUp-healthcare-app" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribbble">
             <h2>StepUp</h2>
             <h3>Concept app that helps you focus on your wellbeing.</h3>
           </a>
