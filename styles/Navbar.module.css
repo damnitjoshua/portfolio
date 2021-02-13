@@ -40,3 +40,9 @@
 .nav svg:hover {
     stroke: #bdd1ff;
 }
+
+@media (max-width: 600px) {
+    .nav {
+        padding: 1.5rem 0;
+    }
+}
