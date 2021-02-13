@@ -158,6 +158,11 @@
     margin-top: 6rem;
   }
 
+  .projectCon {
+    margin-top: 2rem;
+    grid-gap: 1.6rem;
+  }
+
   .projectCon h2 {
     font-size: 1.3rem;
     letter-spacing: 2px;
