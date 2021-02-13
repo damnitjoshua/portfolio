@@ -5,18 +5,12 @@
   text-rendering: optimizelegibility;
 }
 
-.container {
-  margin: 3rem 22rem;
-  background: #101010;
-  padding: 0;
-}
-
 .header h1,
 .project h1{
   font-family: 'SF Pro', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 2.2rem;
+  font-size: 2rem;
   letter-spacing: 2px;
 }
 
@@ -24,7 +18,7 @@
   font-family: 'SF Pro', sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2.6rem;
   letter-spacing: 1px;
 }
@@ -50,7 +44,7 @@
   font-family: 'SF Pro';
   font-weight: 500;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -66,7 +60,6 @@
 }
 
 .projectCon {
-  margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
@@ -76,7 +69,7 @@
   font-family: 'SF Pro', sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 3rem;
   letter-spacing: 2px;
 }
@@ -85,7 +78,7 @@
   font-family: 'SF Pro', sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 2.3rem;
   letter-spacing: 1px;
   margin-top: -10px;
@@ -96,9 +89,6 @@
   border: 3px solid #1d212b;
   border-radius: 7px;
   padding: 0.1rem 3rem;
-  font-family: 'SF Pro';
-  font-weight: 500;
-  font-style: normal;
   text-align: left;
 }
 
@@ -121,15 +111,11 @@
 }
 
 @media (max-width: 1200px) {
-  .container {
-    margin: 3rem 8rem;
-  }
+  
 }
 
 @media (max-width: 900px) {
-  .container {
-    margin: 3rem 6rem;
-  }
+  
 
   .socialCon {
     margin-top: 3rem;
@@ -140,23 +126,20 @@
 }
 
 @media (max-width: 600px) {
-  .container {
-    margin: 1.6rem 1.6rem 5rem 1.6rem;
-  }
-
   .header h1,
   .project h1{
     font-size: 1.7rem;
   }
 
   .header h2 {
-    font-size: 1.2rem;
-    line-height: 2.1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
     letter-spacing: 2px;
   }
 
   .header a {
-    padding: 1rem 1.5rem;
+    padding: 1rem 0;
     font-size: 1.2rem;
   }
 
@@ -164,7 +147,7 @@
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 0.8rem;
   }
 
   .project {
