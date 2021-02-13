@@ -23,7 +23,7 @@ export default function Home() {
       <header className={styles.header}>
         <img 
           className={styles.headerimg}
-          src="/headerimg.jpg"
+          src="/headerimg.webp"
           alt="Photo of Joshua Chew"
           loading="lazy"
         />
