@@ -27,7 +27,7 @@
   width: 100%;
   height: 20rem;
   object-fit: cover;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 .socialCon {
@@ -39,7 +39,7 @@
 
 .header a {
   border: 3px solid #2b313f;
-  border-radius: 7px;
+  border-radius: 4px;
   padding: 1rem 1.5rem;
   font-family: 'SF Pro';
   font-weight: 500;
@@ -99,7 +99,7 @@
 .link {
   text-align: center;
   border: 3px solid #ffffff;
-  border-radius: 7px;
+  border-radius: 4px;
   padding: 1rem 3rem;
   font-family: 'SF Pro';
   font-weight: 500;
