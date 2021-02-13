@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="language" content="English" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Joshua Chew Jay Han" />
-        <link rel="preload" as="image" href="/headerimg.jpg" />
+        <link rel="preload" as="image" href="/headerimg.webp" />
       </Head>
 
       <header className={styles.header}>
