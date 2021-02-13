@@ -11,10 +11,12 @@ body {
   font-display: fallback;
   text-rendering: optimizelegibility;
   padding: 0;
-  margin: 0;
   background: #101010;
   color: #ffffff;
-  
+}
+
+body {
+  margin: 0 22rem 3rem 22rem;
 }
 
 a {
@@ -24,4 +26,22 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin: 0 8rem 3rem 8rem;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    margin: 0 6rem 3rem 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 1.6rem 5rem 1.6rem;
+  }
 }
