@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2.5rem 0;
+    padding: 2rem 0;
 }
 
 .iconcon {
@@ -44,5 +44,9 @@
 @media (max-width: 600px) {
     .nav {
         padding: 1.5rem 0;
+    }
+
+    .link {
+        font-size: 1.1rem;
     }
 }
