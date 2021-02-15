@@ -18,6 +18,15 @@ export default function Home() {
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Joshua Chew Jay Han" />
         <link rel="preload" as="image" href="/headerimg.webp" />
+        <link rel="preload" as="image" href="/eggven.webp" />
+        <link rel="preload" as="image" href="/stepup.webp" />
+        <link rel="preload" as="image" href="/chai.webp" />
+        <link rel="preload" as="image" href="/bcu.webp" />
+        <link rel="preload" as="image" href="/covmy.webp" />
+        <link rel="preload" as="image" href="/uid.webp" />
+        <link rel="preload" as="image" href="/moistapp.webp" />
+        <link rel="preload" as="image" href="/daydream.webp" />
+        <link rel="preload" as="image" href="/ketupat.webp" />
       </Head>
 
       <header className={styles.header}>
@@ -51,18 +60,36 @@ export default function Home() {
 
         <div className={styles.projectCon}>
           <a href="https://eggventure.netlify.app" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Egg Venture">
+            <img
+              className={styles.img}
+              src="/eggven.webp"
+              alt="Photo of Joshua Chew"
+              loading="lazy"
+            />
             <h2>Egg Venture Technology</h2>
             <h3>Homepage and Covid Tracking for egg processing and handling company.</h3>
             <span>CODE</span><span>DESIGN</span>
           </a>
           <a href="https://dribbble.com/shots/7688660-StepUp-healthcare-app" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribbble">
+            <img
+              className={styles.img}
+              src="/stepup.webp"
+              alt="StepUp"
+              loading="lazy"
+            />
             <h2>StepUp</h2>
             <h3>Concept app that helps you focus on your wellbeing.</h3>
             <span>DESIGN</span>
           </a>
           <a href="https://www.youtube.com/watch?v=Vle4bZ-ovSg" target="_blank" rel="noopener noreferrer external" role="Link" aria-label="The Story of Uncle Chai">
+            <img
+              className={styles.img}
+              src="/chai.webp"
+              alt="Photo of Joshua Chew"
+              loading="lazy"
+            />
             <h2>The Story of Uncle Chai</h2>
-            <h3>Short film entry for the #NeighbourhoodProject.</h3>
+            <h3>Top 20 in the #NeighbourhoodProject short film competition.</h3>
             <span>EDITOR</span><span>DESIGN</span>
           </a>
           
