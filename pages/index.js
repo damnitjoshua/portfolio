@@ -40,7 +40,7 @@ export default function Home() {
         <div>
           <h1>Hello, I’m Joshua 👋</h1>
           <h2>Currently pursuing Diploma in Computer Studies at University of Wollongong Malaysia. 
-              I mostly do <b>Front-End Web Development</b> and <b>User Interface Design</b>. I also enjoy watching 
+              I mostly do Front-End Web Development and User Interface Design. I also enjoy watching 
               F1 and Anime on the weekends!
           </h2>
         </div>
