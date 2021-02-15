@@ -37,9 +37,9 @@ export default function Home() {
         </div>
 
         <div className={styles.socialCon}>
-          <a href="https://myanimelist.net/profile/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="My Anime List">MAL</a>
           <a href="https://dribbble.com/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribble">Dribbble</a>
           <a href="https://www.linkedin.com/in/jcjh/" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribble">LinkedIn</a>
+          <a href="https://myanimelist.net/profile/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="My Anime List">MAL</a>
           <a href="mailto:joshuachew8118@gmail.com" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Email">Email</a>
           <a href="https://telegram.me/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Telegram">Telegram</a>
           <a href="https://wa.me/+60122550871" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Whats App">WhatsApp</a>
@@ -50,17 +50,20 @@ export default function Home() {
         <h1>Projects</h1>
 
         <div className={styles.projectCon}>
-          <a href="https://covidmalaysia.netlify.app" target="_blank" rel="noopener noreferrer external" role="Covid Malaysia">
-            <h2>Covid Malaysia</h2>
-            <h3>Daily Covid-19 Tracking in Malaysia.</h3>
-          </a>
           <a href="https://eggventure.netlify.app" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Egg Venture">
             <h2>Egg Venture Technology</h2>
-            <h3>Homepage and Covid Tracking for Egg Venture.</h3>
+            <h3>Homepage and Covid Tracking for egg processing and handling company.</h3>
+            <span>CODE</span><span>DESIGN</span>
           </a>
           <a href="https://dribbble.com/shots/7688660-StepUp-healthcare-app" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribbble">
             <h2>StepUp</h2>
             <h3>Concept app that helps you focus on your wellbeing.</h3>
+            <span>DESIGN</span>
+          </a>
+          <a href="https://www.youtube.com/watch?v=Vle4bZ-ovSg" target="_blank" rel="noopener noreferrer external" role="Link" aria-label="The Story of Uncle Chai">
+            <h2>The Story of Uncle Chai</h2>
+            <h3>Short film entry for the #NeighbourhoodProject.</h3>
+            <span>EDITOR</span><span>DESIGN</span>
           </a>
           
           <Link href="/projects" rel="prefetch">
