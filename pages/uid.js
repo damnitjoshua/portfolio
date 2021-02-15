@@ -11,7 +11,7 @@ export default function uid() {
       </header>
       <Link href="/projects" rel="prefetch">
         <div className={styles.link}>
-          View more
+          Back to projects
         </div>
       </Link>
     </div>
