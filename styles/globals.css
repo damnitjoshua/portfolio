@@ -11,12 +11,12 @@ body {
   font-display: fallback;
   text-rendering: optimizelegibility;
   padding: 0;
-  background: #101010;
+  background: #131822;
   color: #ffffff;
 }
 
 body {
-  margin: 0 22rem 3rem 22rem;
+  margin: 0 35rem 3rem 35rem;
 }
 
 a {
@@ -26,6 +26,24 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (min-width: 2300px) {
+  body {
+    margin: 0 50rem 3rem 50rem;
+  }
+}
+
+@media (max-width: 2000px) {
+  body {
+    margin: 0 40rem 3rem 40rem;
+  }
+}
+
+@media (max-width: 1700px) {
+  body {
+    margin: 0 22rem 3rem 22rem;
+  }
 }
 
 @media (max-width: 1200px) {
