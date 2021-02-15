@@ -36,22 +36,23 @@ export default function Home() {
           alt="Photo of Joshua Chew"
           loading="lazy"
         />
-
         <div>
-          <h1>Hello, I’m Joshua 👋</h1>
-          <h2>Currently pursuing Diploma in Computer Studies at University of Wollongong Malaysia. 
-              I mostly do Front-End Web Development and User Interface Design. I also enjoy watching 
-              F1 and Anime on the weekends!
+          <div>
+            <h1>Hello, I’m Joshua 👋</h1>
+            <h2>Currently pursuing Diploma in Computer Studies at University of Wollongong Malaysia.
+            I mostly do Front-End Web Development and User Interface Design. I also enjoy watching
+            F1 and Anime on the weekends!
           </h2>
-        </div>
+          </div>
 
-        <div className={styles.socialCon}>
-          <a href="https://dribbble.com/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribble">Dribbble</a>
-          <a href="https://www.linkedin.com/in/jcjh/" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribble">LinkedIn</a>
-          <a href="https://myanimelist.net/profile/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="My Anime List">MAL</a>
-          <a href="mailto:joshuachew8118@gmail.com" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Email">Email</a>
-          <a href="https://telegram.me/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Telegram">Telegram</a>
-          <a href="https://wa.me/+60122550871" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Whats App">WhatsApp</a>
+          <div className={styles.socialCon}>
+            <a href="https://dribbble.com/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribble">Dribbble</a>
+            <a href="https://www.linkedin.com/in/jcjh/" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Dribble">LinkedIn</a>
+            <a href="https://myanimelist.net/profile/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="My Anime List">MAL</a>
+            <a href="mailto:joshuachew8118@gmail.com" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Email">Email</a>
+            <a href="https://telegram.me/damnitjoshua" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Telegram">Telegram</a>
+            <a href="https://wa.me/+60122550871" target="_blank" rel="noopener noreferrer external" role="link" aria-label="Whats App">WhatsApp</a>
+          </div>
         </div>
       </header>
 
