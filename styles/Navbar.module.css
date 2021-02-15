@@ -34,11 +34,11 @@
 }
 
 .link:hover {
-    text-decoration: #ffffff 3px underline;
+    text-decoration: #fff349 3px underline;
 }
 
 .nav svg:hover {
-    stroke: #bdd1ff;
+    stroke: #fff349;
 }
 
 @media (max-width: 600px) {

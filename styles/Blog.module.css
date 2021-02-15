@@ -1,0 +1,36 @@
+.header {
+    width: auto;
+}
+
+.header h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  color: rgb(255, 85, 85);
+}
+
+.header h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  letter-spacing: 1px;
+}
+
+.link {
+  margin-top: 3rem;
+  text-align: center;
+  border: 3px solid #ffffff;
+  border-radius: 4px;
+  padding: 1rem 3rem;
+  font-family: 'SF Pro';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.link:hover {
+  cursor: pointer;
+  background: #fff349;
+  color: #000000;
+  border-color: #fff349;
+}

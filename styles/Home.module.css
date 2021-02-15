@@ -7,17 +7,13 @@
 
 .header h1,
 .project h1{
-  font-family: 'SF Pro', sans-serif;
   font-weight: normal;
-  font-style: normal;
   font-size: 2rem;
   letter-spacing: 2px;
 }
 
 .header h2 {
-  font-family: 'SF Pro', sans-serif;
   font-weight: 300;
-  font-style: normal;
   font-size: 1.4rem;
   line-height: 2.6rem;
   letter-spacing: 1px;
@@ -41,16 +37,14 @@
   border: 3px solid #2b313f;
   border-radius: 4px;
   padding: 1rem 1.5rem;
-  font-family: 'SF Pro';
   font-weight: 500;
-  font-style: normal;
   font-size: 1.3rem;
   text-align: center;
 }
 
 .header a:hover {
-  background: #c4d4ff;
-  border: 3px solid #c4d4ff;
+  background: #fff349;
+  border: 3px solid #fff349;
   color: #000000;
 }
 
@@ -66,20 +60,18 @@
 }
 
 .projectCon a {
-  border-left: 6px solid #c4d4ff;
+  border-left: 6px solid #fff349;
   padding: 0 1rem;
   text-align: left;
 }
 
 .projectCon a:hover {
-  color: #c4d4ff;
+  color: #fff349;
   border-left-style: dotted;
 }
 
 .projectCon h2 {
-  font-family: 'SF Pro', sans-serif;
   font-weight: 500;
-  font-style: normal;
   font-size: 1.8rem;
   margin: 0;
   padding-bottom: 0.5rem;
@@ -87,13 +79,24 @@
 }
 
 .projectCon h3 {
-  font-family: 'SF Pro', sans-serif;
   font-weight: 300;
-  font-style: normal;
   font-size: 1.3rem;
   line-height: 2rem;
   margin: 0;
   letter-spacing: 1px;
+}
+
+.projectCon span {
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  color: #fff;
+  margin-top: 1.3rem;
+  margin-right: 0.6rem;
+  padding: 0 12px;
+  background: #2b313f;
+  border-radius: 4px;
 }
 
 .link {
@@ -109,18 +112,12 @@
 
 .link:hover {
   cursor: pointer;
-  background: #c4d4ff;
+  background: #fff349;
   color: #000000;
-  border-color: #c4d4ff;
-}
-
-@media (max-width: 1200px) {
-  
+  border-color: #fff349;
 }
 
 @media (max-width: 900px) {
-  
-
   .socialCon {
     margin-top: 3rem;
     display: grid;
@@ -172,6 +169,12 @@
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 1px;
+  }
+
+  .projectCon span {
+    font-size: 0.7rem;
+    margin-top: 1.2rem;
+    margin-right: 0.5rem;
   }
 
   .link {

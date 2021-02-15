@@ -1,0 +1,114 @@
+.header {
+    width: auto;
+}
+
+.header h1 {
+  font-weight: normal;
+  font-size: 3rem;
+  margin: 1.5rem 0;
+}
+
+.header h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  letter-spacing: 1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2.5rem;
+  margin: 5rem 0;
+}
+
+.grid a {
+  font-weight: 500;
+  font-size: 1.3rem;
+  border-left: 6px solid #fff349;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+.grid a:hover {
+  color: #fff349;
+  border-left-style: dotted;
+}
+
+.grid > div {
+  font-weight: 500;
+  font-size: 1.3rem;
+  border-left: 6px solid #fff349;
+  padding: 0 1rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.grid > div:hover {
+  color: #fff349;
+  border-left-style: dotted;
+}
+
+.grid h2 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.grid h3 {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.grid span {
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  color: #fff;
+  margin-top: 1.3rem;
+  margin-right: 0.6rem;
+  padding: 0 12px;
+  background: #2b313f;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .header h1{
+    font-size: 1.7rem;
+  }
+
+  .header h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .grid {
+    margin-top: 4rem;
+    grid-gap: 2rem;
+  }
+
+  .grid h2 {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+  }
+  
+  .grid h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .grid span {
+    font-size: 0.7rem;
+    margin-top: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
