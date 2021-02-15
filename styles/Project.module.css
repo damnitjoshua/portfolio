@@ -18,34 +18,40 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2.5rem;
+  grid-gap: 3rem;
   margin: 5rem 0;
 }
 
 .grid a {
   font-weight: 500;
   font-size: 1.3rem;
-  border-left: 6px solid #fff349;
+  border-left: 6px solid #c9c154;
   padding: 0 1rem;
   text-align: left;
 }
 
 .grid a:hover {
-  color: #fff349;
   border-left-style: dotted;
+}
+
+.img {
+  width: 100%;
+  height: 15rem;
+  object-position: top;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .grid > div {
   font-weight: 500;
   font-size: 1.3rem;
-  border-left: 6px solid #fff349;
+  border-left: 6px solid #c9c154;
   padding: 0 1rem;
   text-align: left;
   cursor: pointer;
 }
 
 .grid > div:hover {
-  color: #fff349;
   border-left-style: dotted;
 }
 
@@ -53,6 +59,7 @@
   font-weight: 400;
   font-size: 1.8rem;
   margin: 0;
+  padding-top: 1rem;
   padding-bottom: 0.5rem;
   letter-spacing: 2px;
 }
@@ -95,8 +102,16 @@
     grid-gap: 2rem;
   }
 
+  .img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
   .grid h2 {
     font-size: 1.3rem;
+    line-height: 1.5rem;
     letter-spacing: 2px;
   }
   
