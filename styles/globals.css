@@ -28,15 +28,15 @@ a {
   box-sizing: border-box;
 }
 
-@media (min-width: 2300px) {
+@media (min-width: 2200px) {
   body {
-    margin: 0 50rem 3rem 50rem;
+    margin: 0 40rem 3rem 40rem;
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 2200px) {
   body {
-    margin: 0 40rem 3rem 40rem;
+    margin: 0 30rem 3rem 30rem;
   }
 }
 

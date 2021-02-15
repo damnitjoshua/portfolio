@@ -126,6 +126,29 @@
   border-color: #e0d864;
 }
 
+@media (min-width: 1900px) {
+  .header {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+  }
+
+  .headerimg {
+    margin-top: 1.8rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .socialCon {
+    margin-top: 3rem;
+    margin-bottom: -1.8rem;
+    grid-gap: 1rem;
+  }
+}
+
 @media (max-width: 900px) {
   .socialCon {
     margin-top: 3rem;
