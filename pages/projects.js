@@ -91,7 +91,7 @@ export default function projects() {
                     <span>CODE</span><span>DESIGN</span>
                 </a>
                 <div>
-                    <Link href="/uid" rel="prefetch" role="link" aria-label="Assignment Submission System">
+                    <Link href="https://drive.google.com/drive/folders/1HpKhygmy3uTTu5MIgmXxSuJK82Ag6gvH?usp=sharing" rel="prefetch" role="link" aria-label="Assignment Submission System">
                         <div>
                             <img
                                 className={styles.img}
@@ -128,7 +128,7 @@ export default function projects() {
                     <span>EDITOR</span><span>DESIGN</span>
                 </a>
                 <div>
-                    <Link href="/uid" rel="prefetch" role="link" aria-label="Ketupat Productions">
+                    <Link href="https://drive.google.com/drive/folders/1E6P2OvmcHTxgQwbjNn9APFBg9Z4dxj6Z?usp=sharing" rel="prefetch" role="link" aria-label="Ketupat Productions">
                         <div>
                             <img
                                 className={styles.img}
